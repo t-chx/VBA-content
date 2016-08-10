@@ -17,6 +17,21 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes.MSDN.Modern"
+    },
+    {
+      "docset_name": "VBA",
+      "build_source_folder": "VBA",
+      "build_output_subfolder": "VBAVBA",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes.MSDN.Modern"
     }
   ],
   "notification_subscribers": [
